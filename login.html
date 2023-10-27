@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook</title>
+    <link rel="icon" type="image/x-icon" href="media/facebook-icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="loginStyles.css">
+</head>
+
+<body>
+    <main>
+        <div class="row">
+            <div class="panel-logo">
+                <img src="media/logo_facebook.png" alt="Logo">
+                <h2>Connect with friends and the world around you on Facebook.</h2>
+            </div>
+            <div class="column-form">
+                <div class="container">
+                    <input type="text" placeholder="Email or phone number">
+                    <input type="password" placeholder="Password">
+                    <button class="btnLogin">Login</button>
+                    <a href="#">Forgot password?</a>
+                    <button id="btnRegister" class="btn-new">Create new Account</button>
+                </div>
+                <p><a href="#"><b>Create a Page</b></a> for a celebrity, brand or business.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-contents">
+            <ol>
+                <li>English (US)</li>
+                <li><a href="#">Filipino</a></li>
+                <li><a href="#">Bisaya</a></li>
+                <li><a href="#">Español</a></li>
+                <li><a href="#">日本語</a></li>
+                <li><a href="#">한국어</a></li>
+                <li><a href="#">हिन्दी</a></li>
+                <li><a href="#">ಕನ್ನಡ</a></li>
+                <li><a href="#">Español</a></li>
+                <li><a href="#">Português (Brasil)</a></li>
+                <li><a href="#">Français (France)</a></li>
+                <li><button>+</button></li>
+            </ol>
+
+            <ol>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In </a></li>
+                <li><a href="#">Messenger</a></li>
+                <li><a href="#">Facebook Lite</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Page categories</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">PayGroups</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Oculus</a></li>
+                <li><a href="#">Portal</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Local</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In </a></li>
+                <li><a href="#">Messenger</a></li>
+                <li><a href="#">Facebook Lite</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Page categories</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">PayGroups</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Oculus</a></li>
+                <li><a href="#">Portal</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Local</a></li>
+            </ol>
+            <p style="font-size: 11px;">Meta © 2023</p>
+        </div>
+    </footer>
+
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+
+            <h2>Sign Up</h2>
+            <p>It's quick and easy.</p>
+
+            <hr>
+
+            <form id="registrationForm">
+                <div class="input-inline">
+                    <input type="text" placeholder="First Name" name="firstName">
+                    <input type="text" placeholder="Last Name" name="lastName">
+                </div>
+
+                <input type="text" placeholder="Mobile Number or Email" name="email_mobile">
+                <input type="password" placeholder="New Password" name="password">
+
+                <label for="birthdate" style="font-size: 12px; color: #606770;"> Birthday </label>
+                <div class="input-inline">
+                    <select id="month" name="birthmonth"></select>
+                    <select id="day" name="birthday"></select>
+                    <select id="year" name="birthyear"></select>
+                </div>
+
+                <label for="gender" style="font-size: 12px; color: #606770;"> Gender </label>
+                <br>
+                <div class="input-inline">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="other">Custom</label>
+                    <input type="radio" id="custom" name="gender" value="custom">
+                </div>
+                <br>
+                <p style="font-size: 12px; color: #606770;">People who use our service may have uploaded your contact information to Facebook. 
+                    <a href="#">Learn more.</a></p>
+                    <br>
+                    <p style="font-size: 12px; color: #606770;">By clicking Sign Up, you agree to our <a href="#">Terms,</a> 
+                        <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.</p>
+                        <br>
+
+                <center><button class="btn-signup" type="submit">Sign Up</button></center>
+                
+            </form>
+        </div>
+    </div>
+
+    <script src="loginFunctions.js"></script>
+</body>
+</html>
+
